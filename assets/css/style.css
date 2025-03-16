@@ -108,7 +108,7 @@ footer {
 /* Fin Sobre la Biblioteca */
 
 /* Recursos */
-.wrappercards {
+#wrappercards {
     margin-top: 20px;
     display: flex;
     flex-flow: row no-wrap;
