@@ -113,7 +113,8 @@ footer {
 #wrappercards {
     margin-top: 20px;
     display: flex;
-    flex-flow: row no-wrap;
+    flex-direction: row;
+    flex-wrap: no-wrap;
     justify-contents: space-between;
 
 /* Servicios - Plazos de préstamo */
