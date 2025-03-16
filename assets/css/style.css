@@ -81,8 +81,6 @@ footer {
         font-size: 16px;
     }
 }
-
-
 /* Fin Home */
 
 /* Sobre la Biblioteca */
@@ -110,12 +108,13 @@ footer {
 /* Fin Sobre la Biblioteca */
 
 /* Recursos */
-#wrappercards {
+.wrappercards {
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: no-wrap;
-    justify-contents: space-between;
+    flex-flow: row no-wrap;
+    justify-content: space between;
+}
+    
 
 /* Servicios - Plazos de préstamo */
 
