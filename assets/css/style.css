@@ -109,6 +109,13 @@ footer {
 }
 /* Fin Sobre la Biblioteca */
 
+/* Recursos */
+#wrappercards {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-contents: space-between;
+
 /* Servicios - Plazos de préstamo */
 
 table{
