@@ -49,14 +49,13 @@ footer {
 #home {
     background-image: url("../img/imagehome.png");
     background-size: 100% 100%;
-    height: 400px;
+    height: 100%;
     position: relative;
 }
 
 /* Home - Texto de bienvenida */
 #welcometext {
     width: 60%;
-    height: 100%;
     background-color: #F6EBA2 ;
     opacity: 0.8;
     text-align: center;
