@@ -47,7 +47,7 @@ footer {
 
 /* Home - Imagen de fondo*/
 #home {
-    background-image: url("/assets/img/imagehome.png");
+    background-image: url("/assets/img/bibliologo.png");
     height: 400px;
 }
 
@@ -101,23 +101,52 @@ footer {
 #vid-horarios {
     margin: auto;
     padding-top: 50px;
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-flow: row no-wrap;
-    gap: 100px;;
+    gap: 100px;
+    margin-bottom: 10px;
 }
 
 #video {
     text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-/* Sobre la Biblioteca - Horarios de atención */
 #horario {
     background-color: #F6EBA2;
     border-radius: 5px;
     padding: 30px 30px 10px 30px;
     box-shadow: 6px 6px 6px #bebbbb;
-    line-height: 8px;
+    width: 60%;
+    margin:auto;
+}
+
+@media (max-width: 1006px) {
+    #vid-horarios {
+        margin: auto;
+        padding-top: 30px;
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #video {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    #vid-horarios {
+        margin: auto;
+        padding-top: 30px;
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 /* Fin Sobre la Biblioteca */
 
